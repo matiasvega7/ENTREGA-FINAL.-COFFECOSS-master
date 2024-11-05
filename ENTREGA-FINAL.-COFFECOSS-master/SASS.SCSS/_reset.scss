@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  .body {
+    background-image: url(../img/fondo\ body.jpg);
+    background-size: contain;
+    backface-visibility: visible;
+    font-size: 18px;
+    color: $Rb-claro;
+    background-color: $Cafe-cos;
+    overflow-x:hidden;
+  }

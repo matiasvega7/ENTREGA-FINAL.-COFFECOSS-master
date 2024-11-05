@@ -1,0 +1,56 @@
+
+footer{
+    display: flex;
+    background-image: url(../img/footer.webp);
+    width: 100vh;
+    height: 250px;
+    background-size:contain;
+    border-style: solid;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    position: static;
+
+        .redes{
+            position: relative;
+            bottom: 40px;
+            right: 40%;
+            display: grid;
+            color: $Rb-claro;
+            border-radius: 40px;
+            position: fixed;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1;;
+                &:hover{
+                    background-color:4px $Rb-claro;
+                    transform: rotate(180deg);
+                    cursor: pointer;
+                }
+                a{
+                     
+                    img{
+                        padding: 2px;
+                    }
+                }  
+          
+
+                a{
+                    img{
+                      padding: 2px;
+                    }
+                }     
+            }
+
+
+       .final-footer{
+        display: flex;
+        color: $Rb-claro;
+        flex-direction: row 2fr;
+        position: relative;
+        right: 460px;
+        top: 60%;
+      } 
+ }
+
+ 
